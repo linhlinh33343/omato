@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome.eot');
+    src: url('../fonts/FontAwesome.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome.woff2') format('woff2'),
+        url('../fonts/FontAwesome.woff') format('woff'),
+        url('../fonts/FontAwesome.ttf') format('truetype'),
+        url('../fonts/FontAwesome.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome_1.eot');
+    src: url('../fonts/FontAwesome_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome_1.woff2') format('woff2'),
+        url('../fonts/FontAwesome_1.woff') format('woff'),
+        url('../fonts/FontAwesome_1.ttf') format('truetype'),
+        url('../fonts/FontAwesome_1.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'fontawesomeregular';
+    src: url('../fonts/fontawesomeregular.eot');
+    src: url('../fonts/fontawesomeregular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontawesomeregular.woff2') format('woff2'),
+        url('../fonts/fontawesomeregular.woff') format('woff'),
+        url('../fonts/fontawesomeregular.ttf') format('truetype'),
+        url('../fonts/fontawesomeregular.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome_2.eot');
+    src: url('../fonts/FontAwesome_2.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome_2.woff2') format('woff2'),
+        url('../fonts/FontAwesome_2.woff') format('woff'),
+        url('../fonts/FontAwesome_2.ttf') format('truetype'),
+        url('../fonts/FontAwesome_2.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome_3.eot');
+    src: url('../fonts/FontAwesome_3.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome_3.woff2') format('woff2'),
+        url('../fonts/FontAwesome_3.woff') format('woff'),
+        url('../fonts/FontAwesome_3.ttf') format('truetype'),
+        url('../fonts/FontAwesome_3.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'themify';
+    src: url('themify.eot');
+    src: url('themify.eot?#iefix') format('embedded-opentype'),
+        url('themify.woff2') format('woff2'),
+        url('themify.woff') format('woff'),
+        url('themify.ttf') format('truetype'),
+        url('themify.svg#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'themify';
+    src: url('themify_1.eot');
+    src: url('themify_1.eot?#iefix') format('embedded-opentype'),
+        url('themify_1.woff2') format('woff2'),
+        url('themify_1.woff') format('woff'),
+        url('themify_1.ttf') format('truetype'),
+        url('themify_1.svg#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'themify';
+    src: url('themify_2.eot');
+    src: url('themify_2.eot?#iefix') format('embedded-opentype'),
+        url('themify_2.woff2') format('woff2'),
+        url('themify_2.woff') format('woff'),
+        url('themify_2.ttf') format('truetype'),
+        url('themify_2.svg#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root{
+    --primary-color:#45bb0c;
+    --text-color:#adb0b7;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+/* slider */
+.btn {
+    
+    color: var(--primary-color);
+    border:2px solid var(--primary-color);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 25px;
+    min-width: 125px;
+    font-weight: 500;
+    text-shadow: 1px 0px 0px rgb(0 0 0 / 40%);
+}
+
+/* product */
+.product__header{
+    text-align: center;
+    margin: 0 auto 24px;
+}
+
+.product__disc{
+    color: var(--text-color);
+    
+}
